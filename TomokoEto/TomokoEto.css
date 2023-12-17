@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+/****共通****/
+
+html{
+    overflow: scroll;/*領域をスクロール表示*/
+    /*background-color: rgb(241, 241, 159);*/
+}
+#wrap{
+    width: 787px;
+    margin: 0 auto;
+}
+body{
+    font-size: 14px;
+    color: #291a02;
+    /*width: 100%;*/
+    margin: 0 auto;
+    background-color: #f4966a;
+}
+  
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+  }
+  
+a{
+    color: navy;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6289c6;
+}
+#pagehead{
+    width: 787px;
+}
+#pagehead h1{
+    width: 450px;
+    margin: auto;
+}
+nav{
+    width: 787px;
+    padding-right: 10px;
+}
+
+nav ul{
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    width: 175px;
+}
+nav ul li img{
+    margin-left: 10px;
+}
+nav ul li a{
+    display: block;
+    font-size: 18px;
+    float: left;
+    width: 150px;
+    line-height: 30px;
+    margin: 20px 10px;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;    
+}
+nav ul li a:hover{
+    background-color: rgb(1, 66, 19);
+}
+ul li{
+    list-style-type: none;
+}
+#eyecatch img{
+    width: 707px;
+    height: 390px;
+    margin: 5px 40px;
+}
+#eyecatch{
+    width: 787px;
+    height: 400px;
+    margin: 0 auto;
+}
+#breadcrumb{
+    clear: both;
+    margin-left: 30px;
+    width: 777px;
+    line-height: 20px;
+}
+#contents{
+    width: 779px;
+    margin-top: 20px;
+}
+#top_msg{
+    margin-left: 40px;
+    width: 450px;
+    float: left;
+}
+#top_msg h2{
+    width: 450px;
+    font-weight: bolder;
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+}
+#top_msg h2, #top_msg h3,
+#top_msg p{
+    padding-left:15px ;
+}
+main{
+    width: 500px;
+    float: right;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 5px 5px;
+}
+#side h3{
+    float: right;
+    margin-right: 60px;
+    border-bottom: 2px solid black;
+}
+#side p{
+    font-size: 18px;
+    float: right;
+    width: 150px;
+    line-height: 30px;
+    margin: 10px 30px 10px 15px;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;    
+}
+#back, #bottom{
+    clear:both;
+}
+#back{
+    text-align: right;
+    line-height: 30px;
+}
+
+footer{
+    width: 787px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    margin: 0 auto;
+}
+footer #bottom{
+    text-align: center;
+}
+footer address{
+    font-weight: 200;
+}
+/********item********/
+#item_contents, #item_contents p,
+ #item_h2, figure{
+    margin-left: 30px;
+} 
+#item_contents{
+    background-color: orange;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding-right: 0;
+}
+#item_contents a{
+    background-color: #f4966a;
+}
+#list{
+    width: 787px;
+}
+figure{
+	height:355px;
+	margin:10px 30px 10px 30px;
+	border:1px solid #808080;
+	float:left;
+	overflow:hidden;
+    width: 320px;
+}
+figure img{
+    width: 300px;
+    height: 300px;
+    margin: 0 5px 0 5px;
+    padding: 5px;
+}
+figcaption{
+    margin:0 10px;
+}
+/*******drink menu*******/
+#menu p{
+    clear: both;
+    text-align: center;
+    font-weight: bolder;
+}
+#menu{
+    width: 787px;
+}
+#menu img{
+    display: block;
+    width: 750px;
+    margin: 10px auto;
+
+}
+/*********cart table*********/
+.cart_contents, .cart_contents_c{
+    width: 767px;
+    color: #291a02;
+}
+.cart_contents h2, #del_contents h2, .cart_contents p,
+.cart_contents_c h2, .cart_contents_c p{
+    width: 300px;
+    text-align: center;
+    border-bottom: 2px dashed black;
+    margin: 5px auto;
+}
+.cart_contents a, .cart_contents_c a, #del_contents a{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.cart_contents form, .cart_contents_c form{
+    width: 700px;
+    margin: 5px auto;
+    padding: 5px;
+}
+.cart_contents table, .cart_contents_c table{
+    width: 700px;
+    margin: 5px auto;
+}
+.cart_contents form th, .cart_contents_c form th{
+    text-align: center;
+}
+.cart_contents_c form td{
+    text-align: center;
+}
+.cart_contents form td{
+    text-align: left;
+}
+.cart_contents form td.ctd{
+    text-align: right;
+    background-color: lightcoral;
+}
+#jump_to_check, #del_contents p{
+    margin: 10px 10px;
+}
+.subtotal{
+    text-align: right;
+}
+.required{
+    color: red;
+}
+#confirm_contents{
+    width: 767px;
+    margin: 10px auto;
+}
+#confirm_contents table{
+    width: 500px;
+    margin: 5px auto;
+}
+#confirm_contents h2, #confirm_contents h3,
+#confirm_contents p{
+    text-align: center;
+}
+#del_contents{
+    text-align: center;
+}
+#submit_a{
+    text-align: center;
+}
+/*メディアクエリ*/
+@media screen and (max-width:599px) {
+    #wrap{
+        width: 100%;
+        overflow: scroll;
+    }
+    #pagehead, #pagehead a, #pagehead h1, #eyecatch img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    #pagehead h1{
+        text-align: center;
+    }
+    nav{
+        width: 100%;
+        padding: 0;
+    } 
+    nav li{
+        width: 33.3%;
+    }
+    nav img{
+        display: none;
+    }
+    #top_msg{
+        width: 100%;
+        padding: 10px auto;
+    }
+    #side{
+        clear: both;
+        float: none;
+        width: 50%;
+    }
+    #side h3{
+        width: 30%;
+        text-align: center;
+    }
+    #side p{
+        clear: both;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+    #item_contents, #item_contents h3{
+        width: 90%;
+        height: auto;
+        margin:5px;
+    }
+    #item_contents p{
+        width: 15%;
+    }
+    figure, figure img{
+        width: 70%;
+        height: auto;
+        margin: 5px;
+        border: #f4966a;
+    }
+    figcaption{
+        font-weight: bolder;
+        border-bottom: 2px dashed brown;
+    
+    }
+    #menu{
+        width: 100%;
+        height: auto;
+    }
+    #menu img, #menu p{
+        width: 80%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .cart_contents, .cart_contents form,
+     #confirm_contents, #confirm_contents form{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .cart, .input{
+        width: 80%;
+        margin: 0 auto;
+        padding: 2px;
+        height: auto;
+    }
+    table.customer, #confirm_contents table{
+        width: 80%;
+        margin: 5px auto;
+    }
+    .cart_contents h2, #del_contents h2, .cart_contents p{
+        width: 30%;
+        text-align: center;
+        border-bottom: 2px dashed black;
+        margin: 5px auto;
+    }
+    .cart_contents a, #del_contents a{
+        margin: 5px 0;
+        width:50%;
+    }
+    #jump_to_check{
+        width: 100%;
+        margin: 5px auto;
+    }
+    
+    
+}
